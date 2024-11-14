@@ -6,8 +6,8 @@ function ProfileCard() {
     return (
         <div className="profile-card-wrapper">
             <div className="profile-card-title">Name: {userData.name}</div>
-            <img src={userAvatar} alt="" />
-            {/* <img src={userData.avatar} alt="Avatar" className="user-img" /> */}
+            {/* <img src={userAvatar} alt="" /> */}
+            <img src={userData.avatar} alt="Avatar" className="user-img" />
             <div>Occupation: {userData.occupation}</div>
             <div>Hobbies: {userData.hobbies}</div>
         </div>
