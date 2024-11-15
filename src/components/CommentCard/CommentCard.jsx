@@ -1,0 +1,18 @@
+import "./styles.css";
+
+function CommentCard({ text, author = "anonymous" }) {
+    //const isAnonymous = author === 'anonymous'? 'comment-card-wrapper_bg': '';
+    const commentCard =
+        author === "anonymous"
+            ? "comment-card-wrapper_bg"
+            : "comment-card-wrapper";
+    return (
+        /* <div className={`comment-card-wrapper ${isAnonymous}`}> */
+        <div className={commentCard}>
+            <p className="comment-card-text">{text}</p>
+            <p className="comment-card-autor">{author}</p>
+        </div>
+    );
+}
+
+export default CommentCard;
