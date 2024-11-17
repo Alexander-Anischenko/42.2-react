@@ -14,12 +14,12 @@
     cursor: pointer;
 }
 
-.main-button:hover{
+.main-button:hover {
     background-color: #1f26f5cc;
     transform: scale(0.99);
 }
 
-.main-button:active{
+.main-button:active {
     background-color: #1f27f5;
     transform: scale(0.98);
     box-shadow: 0 2px 2px #666;
