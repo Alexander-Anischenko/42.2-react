@@ -7,18 +7,20 @@ import "./App.css";
 
 //homework imports
 //import HomeWork02 from "./homeworks/HomeWork_02/HomeWork_02";
+import HomeWork03 from "./homeworks/HomeWork03/HomeWork03";
 
 //consultation imports
-import Consultation02 from "./consultations/Consultation02/Consultation02";
+//import Consultation02 from "./consultations/Consultation02/Consultation02";
 
 function App() {
     return (
         <div className="App">
             {/* {<Lesson02 />} */}
-            {/* <HomeWork02 /> */}
             {/* <Lesson03/> */}
             {/* <Lesson04/> */}
-            <Consultation02/>
+            {/* <HomeWork02 /> */}
+            <HomeWork03/>
+            {/* <Consultation02/> */}
         </div>
     );
 }
