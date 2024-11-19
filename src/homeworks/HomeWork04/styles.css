@@ -1,0 +1,8 @@
+.homework-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+    width: 100%;
+    flex: 1;
+}
